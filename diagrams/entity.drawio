@@ -11,14 +11,20 @@
     </mxGraphModel>
   </diagram>
   <diagram id="wGVnZBvqeddYok9E1Rf5" name="Link">
-    <mxGraphModel dx="1306" dy="801" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1306" dy="801" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="nSV0fRQaAkMYEmg0EWtH-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Link&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ dep: Dependency&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;+ sub: Subscriber &amp;amp; ({} | IEffect | Dependency)&lt;/p&gt;&lt;br&gt;&amp;nbsp;+ prevSubOrUpdate: Link | undefined&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;div&gt;&lt;br&gt;&amp;nbsp;+ nextSub: Link | undefined&lt;/div&gt;&lt;br&gt;&amp;nbsp;+ nextDep: Link | undefined&lt;div&gt;&amp;nbsp;&lt;br&gt;&amp;nbsp;+ nextPropagateOrReleased: Link | undefined&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="159" y="283" width="308" height="233" as="geometry" />
+          <mxGeometry x="62" y="351" width="308" height="233" as="geometry" />
         </mxCell>
         <mxCell id="nSV0fRQaAkMYEmg0EWtH-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="nSV0fRQaAkMYEmg0EWtH-1" target="nSV0fRQaAkMYEmg0EWtH-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H9TVhaISFKtpRXAber_u-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Link&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ dep: Dependency&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;+ sub: Subscriber &amp;amp; ({} | IEffect | Dependency)&lt;/p&gt;&lt;br&gt;&amp;nbsp;+ prevSubOrUpdate: Link | undefined&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;div&gt;&lt;br&gt;&amp;nbsp;+ nextSub: Link | undefined&lt;/div&gt;&lt;br&gt;&amp;nbsp;+ nextDep: Link | undefined&lt;div&gt;&amp;nbsp;&lt;br&gt;&amp;nbsp;+ nextPropagateOrReleased: Link | undefined&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="412" y="344" width="308" height="233" as="geometry" />
+        </mxCell>
+        <mxCell id="H9TVhaISFKtpRXAber_u-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="H9TVhaISFKtpRXAber_u-1" target="H9TVhaISFKtpRXAber_u-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
